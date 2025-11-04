@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-slim
+FROM openjdk:11-slim
 WORKDIR /app
 COPY . .
 RUN javac samplename.java
